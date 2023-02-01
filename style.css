@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+:root{
+    --color-body:hsl(217, 54%, 11%);
+    --color-font: hsl(215, 32%, 27%);
+    --color-card:  hsl(216, 50%, 16%);
+    --ID-name: hsl(0, 0%, 100%);
+    --click-and-number: hsl(178, 100%, 50%);
+    --description:hsl(215, 51%, 70%);
+}
+body{
+    background-color: var(--color-body);
+}
+
+.container {
+    height: 30rem;
+    width: 16rem;
+    background-color: var(--color-card);
+
+    margin: 10rem auto;
+    border-radius: 2%;
+    box-shadow: rgba(14, 20, 40, 8) -14px 14px;
+}
+
+.nft{
+    height: 15rem;
+    width: 14rem;
+    padding: 1rem;
+
+   border-radius: 8%;
+}
+
+
+.information{
+    padding: 0 1rem;
+}
+
+.information .name {
+    color: var(--ID-name);
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+.name:hover{
+    color: var(--click-and-number);
+}
+
+.info-nft{
+    color: var(--description);
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+    line-height: 0.1rem;
+}
+
+.price1{
+    color: var(--click-and-number);
+    font-family: 'Outfit', sans-serif;;
+}
+
+.price2{
+    color: var(--description);
+    font-family: 'Outfit', sans-serif;;
+}
+
+.price1 img{
+    line-height: 0;
+    height: 12px;
+}
+
+.price2 img{
+    height: 12px;
+}
+
+hr{
+   border-color: rgba(226, 226, 226, 0.158);
+   width: 210px;
+}
+
+.ID{
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil{
+    margin: 9px 9px 0 0;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+p {
+    color: var(--description);
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+p span{
+    color: var(--ID-name);
+    font-weight: 400;
+}
+
+p span:hover{
+    color: var(--click-and-number);
+}
+
+
+
+
+
+
+
+
+
+footer .attribution { 
+    font-size: 16px; 
+    text-align: center; 
+}
+footer .attribution a {
+    color: hsl(228, 45%, 44%); 
+}
